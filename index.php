@@ -1,12 +1,16 @@
 <html lang="en">
   <head>
+    <?php
+      $communityid = $_GET[user]
+      $mapname = $_GET[mapname]
+    ?>
     <meta charset="utf-8">
     <title>FutureRP</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="block">
-      <h1>FutureRP</h1>
+      <h1>FutureRP<br>Карта: <?php echo "$map"?></h1>
       <ul class="bubbles">
         <li></li>
         <li></li>
